@@ -32,3 +32,67 @@ player = {
          'dungeon': 1,
            },
 }
+
+equipamentos = {
+    '1': {
+        'nome': 'espada de madeira',
+        'classe': 'guerreiro',
+        'nivel': 1,
+        'habilidades': {
+            'ataque': 1,
+            'defesa': 1,
+            'vida': 0,
+            }
+    },
+    '2': {
+        'nome': 'livro velho',
+        'classe': 'mago',
+        'nivel': 1,
+        'habilidades': {
+            'ataque': 1,
+            'defesa': 0,
+            'vida': 1,
+            }
+
+    },
+    '3': {
+        'nome': 'arco de madeira',
+        'classe': 'arqueiro',
+        'nivel': 1,
+        'habilidades': {
+            'ataque': 2,
+            'defesa': 0,
+            'vida': 0,
+            }
+
+    },
+}
+
+monstros = {
+    '1': {
+        'nome': 'Rato',
+        'habilidade': {
+            'ataque': 1,
+            'defesa': 0,
+            'vida': 1,
+        },
+        '2': {
+            'nome': 'Formiga',
+            'habilidades': {
+                'ataque': 2,
+                'defesa': 2,
+                'vida': 2,
+            }
+        },
+    }
+}
+        '3': {
+            'nome': 'coelho',
+            'habilidades': {
+                'ataque': 4,
+                'defesa': 3,
+                'vida': 1,
+            }
+        },
+    }
+}
